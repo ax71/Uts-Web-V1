@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "exStore - MultiVersus",
-  description: "Aplikasi Jual beli Game terbaru",
+  icons: {
+    icon: "/icons/Xbox Controller Icon.png",
+  },
+  description: "eXStore adalah platform penjualan game Xbox di Indonesia",
 };
 
 export default function RootLayout({
